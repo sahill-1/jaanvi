@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation with Products</title>
+    <style>
+        /* Your CSS styles here */
+        .container {
+            text-align: center;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .tab {
+            cursor: pointer;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+        }
+
+        .product-section {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            background-color: #f0f0f0;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>What's Your Vibe</h1>
+        <p>Our favorite picks for the season</p>
+    </div>
+
+    <div class="container mt-4">
+        <div class="tabs">
+            <div class="tab" onclick="showProducts('vacation')">Vacation</div>
+            <div class="tab" onclick="showProducts('summer')">Summer</div>
+            <div class="tab" onclick="showProducts('ethnic')">Ethnic</div>
+        </div>
+
+        <div class="product-section" id="vacation-products">
+            <!-- Products for the Vacation tab -->
+            <div class="product">
+                <img src="product-image-vacation.jpg" alt="Vacation Product">
+                <h2>Vacation Product 1</h2>
+                <p>Description: This is a vacation-themed product.</p>
+                <p>Price: $99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more vacation products as needed -->
+        </div>
+
+        <div class="product-section" id="summer-products">
+            <!-- Products for the Summer tab -->
+            <div class="product">
+                <img src="product-image-summer.jpg" alt="Summer Product">
+                <h2>Summer Product 1</h2>
+                <p>Description: This is a summer-themed product.</p>
+                <p>Price: $79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more summer products as needed -->
+        </div>
+
+        <div class="product-section" id="ethnic-products">
+            <!-- Products for the Ethnic tab -->
+            <div class="product">
+                <img src="product-image-ethnic.jpg" alt="Ethnic Product">
+                <h2>Ethnic Product 1</h2>
+                <p>Description: This is an ethnic-themed product.</p>
+                <p>Price: $89.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more ethnic products as needed -->
+        </div>
+    </div>
+
+    <script>
+        function showProducts(category) {
+            // Hide all product sections
+            document.querySelectorAll('.product-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show the selected product section
+            document.getElementById(`${category}-products`).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+#Marquee--template--16100820156610__section-marquee {
+    --PT: 0px;
+    --PB: 36px;
+  }
+  #Marquee--template--16100820156610__section-marquee .top-bar {
+    --adjust-body: calc(var(--FONT-ADJUST-BODY) * 1.1);
+    --padding: 10px;--bg: #eae1df;--text: #142f30;}
+  #Marquee--template--16100820156610__section-marquee .flickity-enabled .ticker--animated,
+  #Marquee--template--16100820156610__section-marquee .top-bar__ticker { padding: 0 25px; }
+
+.navber{
+  background-color: pink;
+}
+
+  .slider2-container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.slide2 {
+    display: none;
+    width: 100%;
+}
+
+.slide2 img {
+    width: 100%;
+    height: auto;
+}
+
+.div-video{
+  height: 500px;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.tab {
+  text-align: center;
+  padding: 5px;
+}
+
+.tabs-scrollbar {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tabs__nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs__link {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs__link:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.current {
+  background-color: #007BFF;
+  color: #fff;
+}
+.heading{
+  cursor: pointer;
+  border: 1px solid !important;
+  border-radius: 5px;
+  background-color: #47000042;
+  padding: 10px;
+  }
+
+.heading:hover{
+  cursor: pointer;
+  border: 1px solid !important;
+  border-radius: 5px;
+  background-color: #595b5d;
+  padding: 10px;
+  }
+
+  .icons-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #aaa3a3;
+    padding: 70px;
+    margin: -10px;
+}
+
+.icons-row__item {
+    text-align: center;
+    justify-content: center;
+    
+    font-size: 25px;
+    
+}
+
+.icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #007bff; /* Change the color as needed */
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+  }
+
+.marque{
+  margin-bottom: 0px;
+}  
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-logo{
+  width: 100%;
+
+}
+
+.footer-link p a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: all ease 0.5s;
+}
+
+.banner{
+  background-image: url(jaanvi/janvi\ banner\ 3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 13rem;
+}
+
+.banner-2{
+  background-image: url(jaanvi/Janvi\ banner\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 13rem;
+}
+
+.banner-3{
+  background-image: url(jaanvi/Janvi\ banner\ 5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 13rem;
+}
+
+.banner-text{
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  
+  color: white;
+}
+
+.overlay_section{
+  position: relative;
+}
+
+.overlay_text{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.btn{
+  border: 1px solid black;
+  border-radius: 2px; 
+  background-color: black;
+  font-size: 14px;
+  color: white;
+  padding: 10px 20px;
+
+}
+
+.btn:hover{
+  border: 1px solid black; 
+  color: #000000; 
+  background-color: rgb(255, 255, 255);
+ }
+
+ .order{
+  background-color: #9f9e9e;
+ }
+
+ @media only screen and (min-width:768px){
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
+}
+
+.overlay_image{
+  width: 100%;
+}
+.carousel-inner{
+  display: flex;
+  
+}
+
+.card{
+  width: 100%;
+ }
+
+ .card-img-top {
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: hsl(0, 0%, 0%) 0px 5px 15px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid #fff;
+  cursor: pointer;
+ }
+ .card-img-top:hover{
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.card-img-top {
+  transition: all .5s ease-in-out;
+}
+
+
+
+
+ @media only screen and (min-width:768px;){
+  .cards_wrapper{
+display: flex;
+  }
+ }
+
+ .cards_wrapper{
+  margin: 15px;
+ }
+
+
+  .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-slide h3 a{
+      text-decoration: none;
+      color:#000;
+    }
+
+    .nav-link{
+      color: #000;
+    }
+
+   .place{
+    width: 30rem;
+    height: 40px;
+   }
+
+   /* contact section end */
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  color: #000;
+  background: #ccc;
+  transition: background-color 0.3s ease;
+  border: 2px black !important;
+}
+
+a {
+  /* color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1)); */
+  text-decoration: none;
+  color: gray;
+}
+
+.product-img {
+  box-shadow: #000000 0px 5px 15px;
+  border-radius: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid #fff;
+  cursor: pointer;
+}
+
+.product-img img {
+  transition: all .5s ease-in-out;
+}
+
+.product-img:hover img {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -webkit-transform: scale(1.1);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
